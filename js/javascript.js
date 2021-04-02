@@ -162,6 +162,7 @@ function processAnswer(question) {
                 }
 
             }).fail(() => {
+                clearAnswers();
                 addAnswerOutput(ANSWER_TEXT_FORMAT("Error: Het is niet gelukt om te verbinden met de database"));
             });
 
