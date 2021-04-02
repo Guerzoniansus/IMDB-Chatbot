@@ -26,3 +26,9 @@
 .answer-text {
     font-size: 20px;
 }
+
+.clickable-question:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+    cursor: pointer;
+}

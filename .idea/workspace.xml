@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="440d8259-4108-4c4f-b8fd-966ff6028832" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cost_and_actors.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cost_and_year.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/populariteit_grafiek.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cost_and_time.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/factoren_succesvolle_film.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/joe_mama.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/javascript.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/questions.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/questions.js" afterDir="false" />
@@ -107,12 +104,24 @@
       <workItem from="1617141668322" duration="1289000" />
       <workItem from="1617177112266" duration="5987000" />
       <workItem from="1617184610734" duration="1331000" />
-      <workItem from="1617353542859" duration="12817000" />
+      <workItem from="1617353542859" duration="22031000" />
     </task>
+    <task id="LOCAL-00001" summary="Fixed offline database error display bug">
+      <created>1617372396846</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617372396846</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fixed offline database error display bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed offline database error display bug" />
   </component>
   <component name="WindowStateProjectService">
     <state x="540" y="174" key="#CLI_Interpreters" timestamp="1617178283019">
@@ -131,6 +140,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1617353775669" />
+    <state x="535" y="114" key="CommitChangelistDialog2" timestamp="1617372395913">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="535" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1617372395913" />
     <state x="739" y="275" key="FileChooserDialogImpl" timestamp="1617365874989">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -147,6 +160,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1617365877974" />
+    <state x="552" y="241" key="Vcs.Push.Dialog.v2" timestamp="1617372400093">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1617372400093" />
     <state x="648" y="366" width="707" height="307" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1617365877318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
