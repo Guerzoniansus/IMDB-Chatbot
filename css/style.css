@@ -1,0 +1,28 @@
+#chat-container {
+}
+
+#message-container {
+    height: 390px;
+    padding: 5px 15px 5px 15px;
+    display: flex;
+    flex-direction: column-reverse;
+    overflow-y: scroll;
+}
+
+.message {
+    margin-bottom: 8px;
+    overflow-wrap: break-word;
+}
+
+#output-container {
+    padding-top: 20px;
+}
+
+.answer-image {
+    max-width: 400px;
+    height: 100%;
+}
+
+.answer-text {
+    font-size: 20px;
+}
