@@ -19,8 +19,8 @@
 }
 
 .answer-image {
-    max-width: 400px;
-    height: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 .answer-text {

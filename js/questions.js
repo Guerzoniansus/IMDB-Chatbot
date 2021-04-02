@@ -34,8 +34,8 @@ class Answer {
 
     /**
      * Creates an answer for a question
-     * @param type Either "text" or "image"
-     * @param content A string when type == text, or an image url if type == image
+     * @param type Either "text" or "image" or "sql"
+     * @param content A string when type == text, or an image url if type == image, or the number of the SQL question if type == sql
      */
     constructor(type, content) {
         this.type = type;
@@ -83,6 +83,27 @@ export const QUESTIONS = [
     new Question("Welk filmgenre heeft in verhouding het minste budget nodig voor de hoogste rating?",
         [ "welk", "filmgenre", "film", "genre", "heeft", "verhouding", "minste", "laagste", "budget", "nodig", "voor", "hoogste", "rating", "waardeering" ],
         [ new Answer("sql", "5") ]
+    ),
+
+    new Question("Is er in de loop van de jaren een verandering in de populariteit van de verschillende filmgenres?",
+    ["is", "er", "in", "loop", "van", "jaar", "jaren", "door", "tijd", "heen", "verandering", "populariteit", "van", "verschillende", "filmgenres", "genres", "genre", "films"],
+    [ new Answer("image", "populariteit_grafiek.jpeg") ]
+    ),
+
+    new Question("Is er een verband tussen het jaartal en het budget van films?",
+        ["is", "er", "verband", "tussen", "jaar", "jaartal", "budget", "kosten", "film", "films"],
+        [
+            new Answer("text", "Er is een lineair regressiemodel gemaakt met R. De R² was minder dan 0.01 en correlatie was 0.05. Er is geen verband." +
+            " Hieronder is een plot. Het lijkt alsof recentelijk films duurder zijn geworden, maar in deze grafiek zijn dat maar een klein aantal van vele duizende films" +
+            " die allemaal onderaan zijn."),
+
+            new Answer("image", "cost_and_year.jpg")
+            ]
+        ),
+
+    new Question("Hoe ziet een visuele weergave van het budget van een film gerelateerd aan het aantal acteurs eruit?",
+        ["hoe", "ziet", "er", "uit", "eruit", "visuele", "weergave", "grafiek", "plot", "budget", "film", "gerelateerd", "aan",  "aantal", "acteurs", "eruit"],
+        [new Answer("image", "cost_and_actors.jpg")]
     )
 ];
 

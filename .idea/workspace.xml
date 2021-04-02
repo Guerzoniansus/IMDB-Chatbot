@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="440d8259-4108-4c4f-b8fd-966ff6028832" name="Default Changelist" comment="" />
+    <list default="true" id="440d8259-4108-4c4f-b8fd-966ff6028832" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cost_and_actors.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cost_and_year.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/populariteit_grafiek.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/joe_mama.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/javascript.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/javascript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/questions.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/questions.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +56,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -53,6 +67,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1qF8aWIQAYoK0nPR3GVamslhh4x" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -62,15 +77,16 @@
     <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Weezi\Desktop\School\Huiswerk\Jaar 2\HW Periode 3\IMDB Chatbot\images" />
       <recent name="C:\Users\Weezi\Desktop\School\Huiswerk\Jaar 2\HW Periode 3\IMDB Chatbot\js" />
       <recent name="C:\Users\Weezi\Desktop\School\Huiswerk\Jaar 2\HW Periode 3\IMDB Chatbot\css" />
-      <recent name="C:\Users\Weezi\Desktop\School\Huiswerk\Jaar 2\HW Periode 3\IMDB Chatbot\images" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -91,7 +107,7 @@
       <workItem from="1617141668322" duration="1289000" />
       <workItem from="1617177112266" duration="5987000" />
       <workItem from="1617184610734" duration="1331000" />
-      <workItem from="1617353542859" duration="8420000" />
+      <workItem from="1617353542859" duration="12817000" />
     </task>
     <servers />
   </component>
@@ -115,10 +131,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1617353775669" />
-    <state x="739" y="275" key="FileChooserDialogImpl" timestamp="1617354029364">
+    <state x="739" y="275" key="FileChooserDialogImpl" timestamp="1617365874989">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1617354029364" />
+    <state x="739" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1617365874989" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1617177734344">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -127,14 +143,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1617177122973" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1617362117754">
+    <state x="461" y="162" key="SettingsEditor" timestamp="1617365877974">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1617362117754" />
-    <state x="648" y="366" width="707" height="307" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1617362116796">
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1617365877974" />
+    <state x="648" y="366" width="707" height="307" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1617365877318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="648" y="366" width="707" height="307" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1617362116796" />
+    <state x="648" y="366" width="707" height="307" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1040/1920.0.1600.860@0.0.1920.1040" timestamp="1617365877318" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1616675955823">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

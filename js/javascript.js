@@ -9,7 +9,7 @@ const QUESTION_DISPLAY = document.getElementById("question-display");
 const ANSWER_OUTPUT = document.getElementById("output-answer-container");
 
 const ANSWER_TEXT_FORMAT = (text) => `<p class="answer-text">${text}</p>`;
-const ANSWER_IMAGE_FORMAT = (path) => `<img class="answer-image" src="${path}">`;
+const ANSWER_IMAGE_FORMAT = (path) => `<a target="_blank" href="${path}"><img class="answer-image" src="${path}"></a>`;
 
 const BOT = "IMDB-Bot";
 const USER = "Ik";
@@ -94,18 +94,16 @@ function processAnswer(question) {
         }
 
         else if (answer.type == "sql") {
-            let success = false;
 
             $.get(DB_URL, {question: answer.content}, (data, status) => {
                 if (status == "success") {
-                    success = true;
                     addAnswerOutput(ANSWER_TEXT_FORMAT(data));
                 }
+
+            }).fail(() => {
+                addAnswerOutput(ANSWER_TEXT_FORMAT("Error: Het is niet gelukt om te verbinden met de database"));
             });
 
-            if (success == false) {
-                addAnswerOutput(ANSWER_TEXT_FORMAT("Error: Het is niet gelukt om te verbinden met de database"));
-            }
         }
     });
 
